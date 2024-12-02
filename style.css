@@ -1,9 +1,14 @@
+h1 {
+    text-align: center;
+}
+
 ul {
     list-style-type: none;
     overflow: hidden;
     background-color: #ffb7c5;
     margin: 0;
     padding: 0;
+    border-radius: 100px;
 }
 
 li {
@@ -18,4 +23,8 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     background-color: #ffb7c5;
+}
+
+li a:hover {
+    background-color: #ff91af;
 }

@@ -1,3 +1,11 @@
+:root {
+    --color1: #fed0bb;
+    --color2: #fcb9b2;
+    --color3: #b23a48;
+    --color4: #8c2f39;
+    --textcolor: #461220;
+}
+
 h1 {
     text-align: center;
 }
@@ -5,10 +13,16 @@ h1 {
 ul {
     list-style-type: none;
     overflow: hidden;
-    background-color: #ffb7c5;
+    position: sticky; 
+    margin-top: 20px;
+    background-color: var(--color4);
     margin: 0;
     padding: 0;
     border-radius: 100px;
+	top: 0; 
+	z-index: 1;
+    border-style: solid;
+    border-width: 1px;
 }
 
 li {
@@ -23,8 +37,10 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     background-color: #ffb7c5;
+    cursor: pointer;
 }
 
 li a:hover {
-    background-color: #ff91af;
+    background-color: var(--color3);
+    border-radius: 50px;
 }

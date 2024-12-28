@@ -21,7 +21,7 @@ function App() {
           <br></br>
 
 
-          <p> I am sorry cute bab :( I am sorry you have such a bad bab. I love u so much. 
+          <p> I am sorry cute bab :( I love u so much. 
           </p>
 
           <img src = 'babshug.png'></img>
